@@ -1,0 +1,32 @@
+.Controls {
+    display: flex;
+    
+}
+.Controls Button {
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    background-color: #000000;
+    color: white;
+    margin-top: 2rem;
+    padding: 3px;
+}
+.Controls Button:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.Number {
+    margin-top: 2rem;
+    padding: 0px 50px 0px 50px;
+}
+.agregar-carrito Button {
+    border: 10px solid #c5db48;
+    border-radius: 1rem;
+    background-color: #c5db48;
+    margin-top: 2rem;
+    color: #000000;
+    font-weight: 500;
+}
+.agregar-carrito Button:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}

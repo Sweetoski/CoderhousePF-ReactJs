@@ -1,0 +1,28 @@
+.main-title {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.SizeCarrito {
+    font-size: 20px;
+    font-weight: 500;
+}
+.total-container {
+    display: flex;
+    justify-content: space-between;
+}
+.bolder-total {
+    font-weight: bold;
+}
+.CarritoButton {
+    border: 5px solid #c5db48;
+    background-color: #c5db48;
+    border-radius: 1rem;
+    font-weight: 500;
+    padding: 8px;
+    margin-bottom: 2rem;
+}
+.CarritoButton:hover {
+    cursor: pointer;
+    transform: scale(1.10);
+}

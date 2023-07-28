@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap");
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu de Navegación */
+.navbar {
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+    background-color: black;
+}
+
+.navbar img {
+    width: 160px;
+    height: auto;
+}
+.color-link {
+    color: rgb(255, 255, 255);
+    padding-top: 1.3rem;
+}
+.navbar li {
+    list-style: none;
+}
+.hover-overline:hover {
+    color: firebrick;
+    text-decoration: overline;
+    cursor: pointer;
+}
+.buttons li:hover {
+    color: firebrick;
+}
+.navbar .span_burger {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .border_burger {
+    border-color: white;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.navbar .border_burger:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+/* Imagenes */
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}

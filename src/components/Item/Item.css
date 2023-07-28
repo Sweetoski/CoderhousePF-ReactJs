@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap");
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Todas las Imagenes */
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Imagenes Productos */
+.ItemImg {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Product Cards */
+.CardItem {
+    display: block;
+    margin: 2rem;
+    padding: 1rem;
+    width: 350px;
+    height: 360px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 80px #bebebe,
+        -10px -10px 80px #ffffff;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+.ItemHeader {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.ItemButton {
+    border: 5px solid #c5db48;
+    background-color: #c5db48;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+.ItemButton:hover {
+    cursor: pointer;
+    transform: scale(1.10);
+}

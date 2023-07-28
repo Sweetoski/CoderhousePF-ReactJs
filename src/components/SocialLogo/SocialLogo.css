@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Todas las Imagenes */
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.div_social_logo {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+.social_logo {
+    list-style: none;
+    display: flex;
+}
+.social_logo img {
+    width: 30px;
+    height: 30px;
+}
+.social_logo img:hover {
+    transform: scale(1.35);
+}

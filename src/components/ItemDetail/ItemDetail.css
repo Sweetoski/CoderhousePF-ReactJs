@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Todas las Imagenes */
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Imagenes Productos */
+.producto-detalle img {
+    width: 20%;
+    height: auto;
+}

@@ -1,0 +1,6 @@
+.color-cart {
+    color: black;
+}
+.color-cart:hover {
+    color: firebrick;
+}
