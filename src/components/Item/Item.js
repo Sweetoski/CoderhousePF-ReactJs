@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { toCapital } from '../../helpers/toCapital'
 import "./Item.css"
 
 const Item = ({ producto }) => {
@@ -16,7 +15,7 @@ const Item = ({ producto }) => {
                 </picture>
                 <section className='card-content'>
                     <p>Precio: ${producto.precio}</p>
-                    <p>Categoría: {toCapital(producto.categoria)}</p>
+                    <p>Categoría: {producto.categoria}</p>
                     <p>Stock disponible: {producto.stock}</p>
                 </section>
                 <div>
